@@ -6,10 +6,24 @@ import Typography from '@mui/material/Typography';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 
+import GitHubIcon from '@mui/icons-material/GitHub';
+
 import Rating from './Rating';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Box
+      sx={{
+        display: 'flex',
+        flexDirection: 'row-reverse'
+      }}
+      as="a"
+      href="https://github.com/shubhamV123/star-rating"
+      target="_blank"
+      mr={5}
+    >
+      <GitHubIcon />
+    </Box>
     <Box
       sx={{
         display: 'flex',
